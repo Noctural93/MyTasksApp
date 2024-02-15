@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myTasks-main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.form-main-container {
+  width: 40vw;
+  background-color: #131213;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-heading {
+  color: #f3aa4e;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tasks-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.label-text-input {
+  color: #f8f8f8;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+
+.text-input {
+  height: 35px;
+  border: 0 solid grey;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 12px;
+  margin-bottom: 36px;
+  color: #64748b;
+}
+
+.select-option-input {
+  height: 35px;
+  outline: none;
+  padding-left: 12px;
+  color: #1a171d;
+}
+
+.add-btn {
+  align-self: center;
+  margin-top: 30px;
+  background-color: #f3aa4e;
+  color: #f8f8f8;
+  border: 0 solid grey;
+  border-radius: 5px;
+  padding: 8px 22px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tags-tasksList-container {
+  width: 60vw;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding-top: 54px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.tag-heading {
+  color: #f8f8f8;
+  font-size: 21px;
+}
+
+.tag-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+.tasks-heading {
+  color: #f8f8f8;
+  font-size: 21px;
+}
+
+.noTask-text {
+  align-self: center;
+  color: #f1f5f9;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.myTasks-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}

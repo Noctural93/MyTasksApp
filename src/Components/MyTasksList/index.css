@@ -1,0 +1,22 @@
+.myTask-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  background-color: #1a171d;
+  padding: 2px 19px;
+}
+
+.task-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.task-type {
+  background-color: #f3aa4e;
+  border: 0 solid grey;
+  border-radius: 16px;
+  padding: 5px 16px;
+}
